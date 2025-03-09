@@ -33,7 +33,7 @@ public class Wordle{
             int correctPosition = 0;
             int wrongPlace = 0;
             //if valid word check if correct position or correct character wrong position
-            for(int i = 0; i<userGuess.length(); i++){
+            for(int i = 0; i<secretWord.length(); i++){
                 char c = userGuess.charAt(i);
                 if(c == secretWord.charAt(i)){
                     //increment position if userguess and secret word match
